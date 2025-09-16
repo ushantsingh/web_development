@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- NOTE:-
+            MDN LINK- https://developer.mozilla.org/en-US/docs/Web/Css/Css_Values_and_Units -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 10vh;
+            background-color: aquamarine;
+            margin: auto;
+        }
+        .container{
+             box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            /* height: 80vh; */
+            min-height:80vh ;
+            font-size: 18px;
+            background-color: aquamarine;
+            margin: 23px auto;
+        }
+        .container div{
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+        }
+        .mycont{
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: black;
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+           
+        }
+        .container >div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Thihs is a box
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus minus voluptatem id eveniet. Ea accusantium consequuntur, quos itaque perspiciatis pariatur rem eveniet sapiente saepe dolores repudiandae voluptas eaque. Sequi, minus?
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt numquam rem, hic in, ex magni natus consequatur assumenda debitis provident id ullam adipisci non aspernatur autem quia, optio molestiae. Vero error ab perferendis numquam quisquam totam incidunt quasi assumenda, nobis ad excepturi aspernatur quas minima dolor voluptatem, accusamus eos eaque earum porro autem illum dignissimos blanditiis consectetur! Dolores, maxime quasi a voluptates ducimus quam odio nam tenetur ea dolorem nihil quibusdam possimus delectus eveniet cupiditate vitae impedit nesciunt tempora repellat mollitia molestias fuga dolor reprehenderit tempore? Perferendis modi nemo laudantium, libero earum non a eos labore! Ipsum, voluptate? Natus, iure.
+
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam non delectus nostrum accusamus error illum unde qui omnis sint debitis, molestiae corrupti pariatur?
+            </div>
+        </div>
+        
+    </div>
+    <div class="mycont">
+        i am another container
+    </div>
+</body>
+</html>
